@@ -123,3 +123,15 @@ nav {
     background-color: #E95A08;
     border: none;
 }
+/* Flower And plant lover */
+.flower_lover {
+    margin: 100px 150px;
+    justify-content: space-between;
+}
+.flower_lover_des {
+    max-width: 540px;
+}
+.flower_lover_des ul li {
+    list-style: disc;
+    margin-top: 20px;
+}
