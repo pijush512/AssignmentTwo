@@ -22,6 +22,7 @@ img {
    font-family: Inter;
    font-size: 1.375rem;
    color: rgba(0, 0, 0, 0.5);
+   margin: 0;
 }
 .section_title {
     font-family: Noto Serif;
@@ -53,9 +54,25 @@ nav {
 #cart {
     color: #252432;
 }
+.cart_image img {
+    width: 24px;
+    height: 24px;
+}
 .nav_item li a {
     font-family: Inter;
     font-size: 1rem;
     line-height: 24px;
     color: #8987A1;
+}
+.last_nav_item {
+    gap: 10px;
+}
+/* Banner style  */
+.banner {
+    justify-content: space-between;
+    margin-top: 150px;
+}
+.banner_content {
+    max-width: 570px;
+    margin-top: 51px;
 }
