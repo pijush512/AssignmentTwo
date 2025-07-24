@@ -5,8 +5,13 @@
 
 @media (max-width: 768px) {
     /* Header */
-    header, .our_plants, .flower_lover, .footer {
-    margin: 20px 10px;
+    header, 
+    .our_plants, 
+    .flower_lover, 
+    .latest_deals, 
+    .footer,
+    .latest_deals {
+    margin: 20px 20px;
 }
     /* Nav */
     .nav_item li:nth-child(1),
@@ -36,10 +41,28 @@
     .batch {
         display: none;
     }
-
+    /* Latest Deals section style */
+    .latest_deals_contant {
+    flex-direction: column;
+    }
+    .latest_deals_left,
+    .zabo_plant {
+        width: 90%;
+    }
+    .zabo_plant {
+        height: 177px;
+    }
+    .zabo_plant h4 {
+        padding: 43px 40px;
+        font-size: 1.25rem;
+    }
+    .zabo_plant a {
+        margin-top: -66px;
+        font-size: 1rem;
+    }
     /* Color full Bunch style  */
     .color_full_bunch h1 {
-        font-size: 1.25rem;
+        font-size: 1.75rem;
         padding: 110px 36px 0 36px;
     }
     .search {
