@@ -123,6 +123,11 @@ nav {
     background-color: #E95A08;
     border: none;
 }
+.card_btn:hover {
+    background-color: #692b08;
+    transition: 1s;
+    cursor: pointer;
+}
 /* Flower And plant lover */
 #flower_lover {
     margin-top: 145px;
@@ -264,6 +269,10 @@ nav {
     cursor: pointer;
     font-size: 1rem;
     color: #fff;
+}
+.Subscribe_btn:hover {
+    background-color: #692b08;
+    transition: 1s;
 }
 /* Footer */
 .footer {

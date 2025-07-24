@@ -49,8 +49,13 @@
     .zabo_plant {
         width: 90%;
     }
+    .bloom_plant,
+    .ana_plant {
+        border-radius: 0;
+    }
     .zabo_plant {
         height: 177px;
+        border-radius: 0;
     }
     .zabo_plant h4 {
         padding: 43px 40px;
