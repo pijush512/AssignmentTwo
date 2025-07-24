@@ -26,8 +26,30 @@
         grid-template-columns: repeat(2, 1fr);
         column-gap: 20px;
     }
-
+    /* Flower And plant lover */
+    #flower_lover {
+    margin-top: 50px;
+}
     .flower_lover {
         flex-direction: column;
     }
+    .batch {
+        display: none;
+    }
+
+    /* Color full Bunch style  */
+    .color_full_bunch h1 {
+        font-size: 1.25rem;
+        padding: 110px 36px 0 36px;
+    }
+    .search {
+        padding-bottom: 64px;
+    }
+    .search input {
+        width: 218px;
+  }
+    .Subscribe_btn {
+        width: 103px;
+  }
+  
 }

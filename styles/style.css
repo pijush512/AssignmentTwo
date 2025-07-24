@@ -124,9 +124,23 @@ nav {
     border: none;
 }
 /* Flower And plant lover */
+#flower_lover {
+    margin-top: 145px;
+}
 .flower_lover {
     margin: 100px 150px;
     justify-content: space-between;
+}
+.flower_lover_img {
+    position: relative;
+}
+.batch img {
+    max-width: 286px;
+}
+.batch {
+    position: absolute;
+    top: -21%;
+    right: -17%;
 }
 .flower_lover_des {
     max-width: 540px;
@@ -134,4 +148,126 @@ nav {
 .flower_lover_des ul li {
     list-style: disc;
     margin-top: 20px;
+}
+/* Latest Deals section style */
+/* .latest_deals {
+    margin: 70px 150px;
+}
+.latest_deals h2 {
+    text-align: center;
+}
+.latest_deals p {
+    text-align: center; 
+    margin-top: -32px;    
+}
+.latest_deals_contant {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    
+}
+#pic_2 {
+    grid-row: span2;
+}
+
+.bloom_plant {
+    background: url("../assets/deal-bloom.png");
+    background-repeat: no-repeat;
+    max-width: 367px;
+    width: 100%;
+    height: 201px;
+    background-size: cover;
+    border-radius: 14px;
+}
+.bloom_plant h4,
+.ana_plant h4 {
+    font-family: Noto Serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 60px 60px;
+}
+.bloom_plant a, 
+.ana_plant a {
+    font-family: Noto Serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -83px;
+}
+.ana_plant {
+    background: url("../assets/deal-ana.png");
+    background-repeat: no-repeat;
+    max-width: 367px;
+    width: 100%;
+    height: 201px;
+    background-size: cover;
+    border-radius: 14px;
+}
+.zabo_plant {
+    background: url("../assets/deal-zabo.png");
+    background-repeat: no-repeat;
+    max-width: 753px;
+    width: 100%;
+    height: 423px;
+    background-size: cover;
+    border-radius: 22px;
+}
+.zabo_plant h4 {
+    font-family: Noto Serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 170px 150px;
+}
+.zabo_plant a {
+    font-family: Noto Serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: -218px;
+} */
+
+ /* Color full Bunch style */
+ .color_full_bunch {
+    background-image: url("../assets/news-letter-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+ }
+ .color_full_bunch h1 {
+    color: #fff;
+    text-align: center;
+    padding: 199px 305px 0 305px;
+ }
+ .search {
+    margin-top: 23px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 193px;
+ }
+  .search input {
+    width: 644px;
+    height: 50px;
+    border: none;
+  }
+ .search input::placeholder {
+    padding-left: 20px;
+ }
+.Subscribe_btn {
+    background-color: #E95A08;
+    border: none;
+    width: 186px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #fff;
 }
