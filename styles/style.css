@@ -271,3 +271,29 @@ nav {
     font-size: 1rem;
     color: #fff;
 }
+/* Footer */
+.footer {
+    margin: 50px 150px;
+    justify-content: space-between;
+}
+.footer_left {
+    max-width: 359px;
+}
+.footer_left p {
+    margin-top: 20px;
+}
+
+
+.footer_link li a{
+    font-size: 1rem;
+    font-family: Inter;
+    color: rgba(107, 114, 128, 1);
+    line-height: 50px;
+}
+.footer_right {
+    gap: 24px;
+}
+.footer_right img {
+    width: 36px;
+    height: 36px;
+}
